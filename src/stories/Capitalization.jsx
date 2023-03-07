@@ -43,7 +43,7 @@ export default function BasicTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
+//
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -55,16 +55,51 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        Capitalization
+          <h2>Capitalization</h2>
+          <hr/>
+          <h3>General Guidance</h3>
+          <p>
+            Use sentence case (only capitalize the first word and proper nouns and acronyms) in titles, headings, menu items, labels, and buttons.
+
+            <h3>DO capitalize</h3>
+            The first letter of the first word of any label or sentence (this sentence is an example!)
+
+            Proper nouns (Maryland, Medicaid, John Smith)
+
+            Titles of official publications, laws, or products (Alternative Benefit Plan, the Social Security Act, Gmail)
+
+            <h3>DON’T capitalize</h3>
+
+            <ul>
+              <li>Words other than the first word, other than proper nouns</li>
+              <li>Common nouns</li>
+              <li>Specific processes or products (waivers, email)</li>
+            </ul>
+          </p>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Acronyms
+      <h2>Acronyms</h2>
+          <hr/>
+          <h3>General Guidance</h3>
+          <p>
+          Acronyms should almost always be in all capital letters. For exceptions, see word list (forthcoming).
+          </p>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Wayfinding
+      <h2>Wayfinding</h2>
+          <hr/>
+          <p>
+          When providing step-by-step instructions on where to go to do something, capitalize the first word of the navigation labels in each step. 
+          Example: To start a new SPA submission, go to Packages, then select New submission.
+          </p>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Accessibility Notes
+      <h2>Accessibility notes</h2>
+          <hr/>
+          <p>
+          Using sentence case in labels and headers makes it easier to scan a page for categories of information. 
+          It also makes it easier to distinguish between proper nouns and regular nouns.
+          </p>
       </TabPanel>
     </Box>
   );
