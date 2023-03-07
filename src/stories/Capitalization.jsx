@@ -37,7 +37,7 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs() {
+export default function CapitalizationTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -47,7 +47,7 @@ export default function BasicTabs() {
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+        <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="basic tabs example">
           <Tab label="Capitalization" {...a11yProps(0)} />
           <Tab label="Acronyms" {...a11yProps(1)} />
           <Tab label="Wayfinding" {...a11yProps(2)} />
@@ -57,8 +57,8 @@ export default function BasicTabs() {
       <TabPanel value={value} index={0}>
           <h2>Capitalization</h2>
           <hr/>
-          <h3>General Guidance</h3>
           <p>
+          <h3>General Guidance</h3>
             Use sentence case (only capitalize the first word and proper nouns and acronyms) in titles, headings, menu items, labels, and buttons.
 
             <h3>DO capitalize</h3>
