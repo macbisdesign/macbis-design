@@ -15,8 +15,13 @@
 //  <Capitalization />
 // </ThemeProvider>
 
-
 export const parameters = {
+  options: {
+    storySort: {
+      order: ['Design System', 'Content', 'Components'],
+      // order: ['Intro', 'Pages', ['Home', 'Login', 'Admin'], 'Design System', '*', 'WIP'],
+    },
+  },
   actions: { argTypesRegex: "^on[A-Z].*" },
   previewTabs: {
     canvas: { hidden: true },
