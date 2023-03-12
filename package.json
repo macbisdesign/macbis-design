@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev",
-    "build-storybook": "build-storybook -o docs/storybook",
+    "build-storybook": "storybook build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
