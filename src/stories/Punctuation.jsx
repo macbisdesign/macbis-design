@@ -61,7 +61,6 @@ export default function PunctuationTabs() {
       </Box>
       <TabPanel value={value} index={0}>
           <h2>Bullet Points</h2>
-          <hr/>
           <h3>General Guidance</h3>
           <p>
           <ul>
@@ -79,14 +78,12 @@ export default function PunctuationTabs() {
       </TabPanel>
       <TabPanel value={value} index={1}>
       <h2>Colons</h2>
-          <hr/>
           <p>
           Colons can be used to introduce a bulleted list or numbered steps.
           </p>
       </TabPanel>
       <TabPanel value={value} index={2}>
       <h2>Commas</h2>
-          <hr/>
           <h3>General Guidance</h3>
           <p>
           Use a serial (or “Oxford”) comma to separate items in a list. Don’t use commas in place of connecting words like “and,” “or,” “because,” and so on.
@@ -96,7 +93,6 @@ export default function PunctuationTabs() {
       </TabPanel>
       <TabPanel value={value} index={3}>
       <h2>Contractions</h2>
-          <hr/>
           <h3>General Guidance</h3>
           <p>
           Use common contractions; they convey a more conversational tone. 
@@ -110,7 +106,6 @@ export default function PunctuationTabs() {
       </TabPanel>
       <TabPanel value={value} index={4}>
       <h2>Dashes</h2>
-          <hr/>
           <h3>General Guidance</h3>
           <p>
           There are three similar-looking dash types, but they have distinct applications.
@@ -132,19 +127,16 @@ export default function PunctuationTabs() {
       </TabPanel>
       <TabPanel value={value} index={5}>
       <h2>Exclamation marks</h2>
-          <hr/>
           <p>
           Depending on the situation, exclamation marks can cause users anxiety. If we use them, it should be in the context of a decisively positive action, such as completing a complicated series of tasks.
           </p>
       </TabPanel>
       <TabPanel value={value} index={6}>
       <h2>Hyphens</h2>
-          <hr/>
           <p>See <a>dashes.</a></p>
       </TabPanel>
       <TabPanel value={value} index={7}>
       <h2>Periods</h2>
-          <hr/>
           <h3>General Guidance</h3>
           <p>Avoid periods in headers, titles, buttons, field descriptions, and menu names.</p> 
 
@@ -152,7 +144,6 @@ export default function PunctuationTabs() {
       </TabPanel>
       <TabPanel value={value} index={8}>
       <h2>Quotation marks</h2>
-          <hr/>
           <h3>General Guidance</h3>
           <p>
           Use quotation marks for direct quotes. Don’t use them to denote UI labels.

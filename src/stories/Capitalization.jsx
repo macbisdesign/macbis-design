@@ -76,7 +76,6 @@ export default function CapitalizationTabs() {
       </Box>
       <TabPanel value={value} index={0}>
           <h2>Capitalization</h2>
-          <hr/>
           <p>
           <h3>General Guidance</h3>
             Use sentence case (only capitalize the first word and proper nouns and acronyms) in titles, headings, menu items, labels, and buttons.
@@ -99,7 +98,6 @@ export default function CapitalizationTabs() {
       </TabPanel>
       <TabPanel value={value} index={1}>
       <h2>Acronyms</h2>
-          <hr/>
           <h3>General Guidance</h3>
           <p>
           Acronyms should almost always be in all capital letters. For exceptions, see word list (forthcoming).
@@ -107,7 +105,6 @@ export default function CapitalizationTabs() {
       </TabPanel>
       <TabPanel value={value} index={2}>
       <h2>Wayfinding</h2>
-          <hr/>
           <p>
           When providing step-by-step instructions on where to go to do something, capitalize the first word of the navigation labels in each step. 
           Example: To start a new SPA submission, go to Packages, then select New submission.
@@ -115,7 +112,6 @@ export default function CapitalizationTabs() {
       </TabPanel>
       <TabPanel value={value} index={3}>
       <h2>Accessibility notes</h2>
-          <hr/>
           <p>
           Using sentence case in labels and headers makes it easier to scan a page for categories of information. 
           It also makes it easier to distinguish between proper nouns and regular nouns.

@@ -1,11 +1,9 @@
-// .storybook/YourTheme.js
-
 import { create } from '@storybook/theming';
 
 export default create({
   base: 'light',
-  brandTitle: 'My custom storybook',
+  brandTitle: 'Macbis',
   brandUrl: 'https://example.com',
-  brandImage: '../public/images/macbislogo2022.JPG',
+  brandImage: 'https://i.ibb.co/7n22Qdv/MACBIS-Logo-2022.jpg',
   brandTarget: '_self',
 });

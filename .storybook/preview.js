@@ -1,6 +1,4 @@
-import { addDecorator } from '@storybook/react';
-import { Global, css } from '@emotion/react';
-import logo from '../public/images/macbislogo2022.JPG';
+// import logo from '../public/images/macbislogo2022.JPG';
 // import './src/styles/custom.css';
 
 // import { ThemeProvider, createTheme } from '@mui/material';
@@ -17,13 +15,6 @@ import logo from '../public/images/macbislogo2022.JPG';
 //  <Capitalization />
 // </ThemeProvider>
 
-/* src/assets/custom.css */
-
-/* Change the background color of the left panel in Storybook docs */
-// .sbdocs {
-//   background-color: #f0f0f0;
-// }
-
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -31,11 +22,11 @@ export const parameters = {
     canvas: { hidden: true },
     docs: { hidden: true },
   },
-  brand: {
-    logo: logo,
-    name: 'MACBIS Design System',
-    title: 'MACBIS Design System',
-  },
+  // brand: {
+  //   logo: logo,
+  //   name: 'MACBIS Design System',
+  //   title: 'MACBIS Design System',
+  // },
   controls: {
     matchers: {
       color: /(background|color)$/i,
