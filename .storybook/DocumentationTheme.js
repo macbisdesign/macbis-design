@@ -4,10 +4,10 @@ export default create({
   base: 'light',
   brandTitle: 'Macbis',
   brandUrl: 'https://example.com',
-  brandImage: 'https://i.ibb.co/7n22Qdv/MACBIS-Logo-2022.jpg',
+  brandImage: 'https://i.ibb.co/NxTHPmf/MACBIS-4.png',
   brandTarget: '_self',
   colorPrimary: '#F9F9F9',
-  colorSecondary: 'white',
+  colorSecondary: '#2a4362',
 
   // UI
   // appBg: '#2a4362',
@@ -17,7 +17,7 @@ export default create({
   appBorderRadius: 4,
 
   // Typography
-  fontBase: '"Cabin", sans-serif',
+  fontBase: '"Merriweather", sans-serif',
   fontCode: 'monospace',
   fontSize: 24,
 
@@ -28,11 +28,10 @@ export default create({
 
   // Toolbar default and active colors
   barTextColor: 'white',
-  barSelectedColor: 'black',
+  barSelectedColor: '',
   // barBg: '#18415E',
   barBg: '#2a4362',
   // barBorderColor: 'red',
-
   // Form colors
   inputBg: 'white',
   inputBorder: 'silver',
