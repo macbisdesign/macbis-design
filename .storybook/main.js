@@ -9,6 +9,27 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/preset-create-react-app"
   ],
+  // "parameters": {
+  //   previewTabs: {
+  //     'storybook/docs/panel': {
+  //       hidden: true,
+  //     },
+  //   },
+  //   options: {
+  //     theme: {
+  //       base: 'light',
+  //       brandImage: '../public/images/macbislogo2022.JPG',
+  //     },
+  //   },
+  // },
+  addons: [
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        docs: false,
+      },
+    },
+  ],
   "framework": "@storybook/react",
   "core": {
     "builder": "@storybook/builder-webpack5"

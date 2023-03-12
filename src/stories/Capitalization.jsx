@@ -1,14 +1,34 @@
 import * as React from 'react';
+// import { addParameters, addDecorator } from '@storybook/react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import './capitalization.css';
+
 
 // interface TabPanelProps {
 //   children?: React.ReactNode;
 //   index: number;
 //   value: number;
 // }
+
+// storiesOf('Capitalization', module)
+//   .addParameters({
+//     options: {
+//       showPanel: false,
+//     },
+//   })
+//   .addDecorator(storyFn => <div>{storyFn()}</div>)
+//   .add('Default', () => <Capitalization />);
+
+// addParameters({
+//   options: {
+//     showPanel: false,
+//   },
+// });
+
+// addDecorator(storyFn => <div>{storyFn()}</div>);
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -104,3 +124,10 @@ export default function CapitalizationTabs() {
     </Box>
   );
 }
+
+export const parameters = {
+  previewTabs: {
+    canvas: { hidden: true },
+    docs: { hidden: true },
+  },
+};
