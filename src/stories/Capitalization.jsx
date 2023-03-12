@@ -63,7 +63,12 @@ export default function CapitalizationTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-//
+
+  const fontStyle = {
+    color: 'red',
+    fontFamily: 'Cabin',
+  };
+
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
