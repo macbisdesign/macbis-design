@@ -72,7 +72,11 @@ export default function CapitalizationTabs() {
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="basic tabs example">
+        <Tabs value={value} 
+        onChange={handleChange} 
+        variant="scrollable" 
+        scrollButtons="auto" 
+        aria-label="basic tabs example">
           <Tab label="Capitalization" {...a11yProps(0)} />
           <Tab label="Acronyms" {...a11yProps(1)} />
           <Tab label="Wayfinding" {...a11yProps(2)} />

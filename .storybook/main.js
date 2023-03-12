@@ -1,11 +1,11 @@
 module.exports = {
   "stories": ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
-  "addons": [{
-    name: "@storybook/addon-docs",
-    options: {
-      docs: false
-    }
-  }, "@storybook/addon-mdx-gfm"],
+  // "addons": [{
+  //   name: "@storybook/addon-docs",
+  //   options: {
+  //     docs: false
+  //   }
+  // }, "@storybook/addon-mdx-gfm"],
   // "parameters": {
   //   previewTabs: {
   //     'storybook/docs/panel': {
@@ -19,12 +19,29 @@ module.exports = {
   //     },
   //   },
   // },
-  addons: [{
-    name: '@storybook/addon-docs',
-    options: {
-      docs: false
-    }
-  }],
+  // addons: [{
+  //   name: '@storybook/addon-docs',
+  //   options: {
+  //     docs: false
+  //   }
+  // }],
+  addons: [
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        configureJSX: true,
+      },
+    },
+    {
+      name: '@storybook/addon-links',
+      options: {
+        links: [
+          { name: 'Google', url: 'https://www.google.com' },
+          { name: 'GitHub', url: 'https://github.com' },
+        ],
+      },
+    },
+  ],
   "framework": {
     name: "@storybook/react-webpack5",
     options: {}
@@ -33,3 +50,5 @@ module.exports = {
     autodocs: true
   }
 };
+
+// .storybook/main.js
