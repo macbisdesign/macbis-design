@@ -10,6 +10,7 @@ export default create({
   colorSecondary: 'white',
 
   // UI
+  // appBg: '#2a4362',
   appBg: '#2a4362',
   appContentBg: '#F9F9F9',
   appBorderColor: 'grey',
@@ -28,6 +29,7 @@ export default create({
   // Toolbar default and active colors
   barTextColor: 'white',
   barSelectedColor: 'black',
+  // barBg: '#18415E',
   barBg: '#2a4362',
   // barBorderColor: 'red',
 
