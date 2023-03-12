@@ -15,14 +15,14 @@
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
-  "homepage": "https://macbisdesign.github.io/",
+  "homepage": "https://macbisdesign.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev",
-    "build-storybook": "storybook build",
+    "build-storybook": "build-storybook -o docs/storybook",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
