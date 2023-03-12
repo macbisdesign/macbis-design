@@ -33,11 +33,6 @@ export default create({
   inputBorder: 'silver',
   inputTextColor: 'black',
   inputBorderRadius: 4,
-
-  brandTitle: 'My custom storybook',
-  brandUrl: 'https://example.com',
-  brandImage: 'https://place-hold.it/350x150',
-  brandTarget: '_self',
 });
 // .storybook/YourTheme.js
 
