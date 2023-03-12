@@ -64,10 +64,9 @@ export default function CapitalizationTabs() {
     setValue(newValue);
   };
 
-  const fontStyle = {
-    color: 'red',
-    fontFamily: 'Cabin',
-  };
+  // const fontStyle = {
+  //   fontFamily: 'Cabin',
+  // };
 
   return (
     <Box sx={{ width: '100%' }}>

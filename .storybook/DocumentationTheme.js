@@ -29,7 +29,7 @@ export default create({
   barTextColor: 'white',
   barSelectedColor: 'black',
   barBg: '#2a4362',
-  barBorderColor: 'red',
+  // barBorderColor: 'red',
 
   // Form colors
   inputBg: 'white',
