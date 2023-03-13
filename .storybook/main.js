@@ -1,29 +1,6 @@
 module.exports = {
   "stories": ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   "outputDir": "./docs/",
-  // addons: [{
-  //   name: '@storybook/addon-docs',
-  //   options: {
-  //     docs: false
-  //   }
-  // }],
-  // addons: [
-  //   {
-  //     name: '@storybook/addon-docs',
-  //     options: {
-  //       configureJSX: true,
-  //     },
-  //   },
-  //   {
-  //     name: '@storybook/addon-links',
-  //     options: {
-  //       links: [
-  //         { name: 'Google', url: 'https://www.google.com' },
-  //         { name: 'GitHub', url: 'https://github.com' },
-  //       ],
-  //     },
-  //   },
-  // ],
   addons: [
     // ... other addons ...
 

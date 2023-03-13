@@ -45,6 +45,7 @@ export default function PunctuationTabs() {
   };
 //
   return (
+    <div style={{borderRadius: '4px', boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.1)', padding: '4rem 20px', border: '1px solid hsla(203, 50%, 30%, 0.15)'}}>
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="basic tabs example">
@@ -151,5 +152,6 @@ export default function PunctuationTabs() {
           </p>
       </TabPanel>
     </Box>
+    </div>
   );
 }

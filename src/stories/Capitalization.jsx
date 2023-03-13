@@ -69,6 +69,9 @@ export default function CapitalizationTabs() {
   // };
 
   return (
+    <>
+    <h1>Capitalization</h1>
+    <div style={{borderRadius: '4px', boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.1)', padding: '4rem 20px', border: '1px solid hsla(203, 50%, 30%, 0.15)'}}>
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} 
@@ -126,12 +129,14 @@ export default function CapitalizationTabs() {
           </p>
       </TabPanel>
     </Box>
+    </div>
+    </>
   );
 }
 
-export const parameters = {
-  previewTabs: {
-    canvas: { hidden: true },
-    docs: { hidden: true },
-  },
-};
+// export const parameters = {
+//   previewTabs: {
+//     canvas: { hidden: true },
+//     docs: { hidden: true },
+//   },
+// };
