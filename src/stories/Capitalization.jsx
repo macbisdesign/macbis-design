@@ -13,21 +13,6 @@ import './capitalization.css';
 //   value: number;
 // }
 
-// storiesOf('Capitalization', module)
-//   .addParameters({
-//     options: {
-//       showPanel: false,
-//     },
-//   })
-//   .addDecorator(storyFn => <div>{storyFn()}</div>)
-//   .add('Default', () => <Capitalization />);
-
-// addParameters({
-//   options: {
-//     showPanel: false,
-//   },
-// });
-
 // addDecorator(storyFn => <div>{storyFn()}</div>);
 
 function TabPanel(props) {

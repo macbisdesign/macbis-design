@@ -40,21 +40,6 @@ export const parameters = {
   },
 }
 
-// addDecorator(storyFn => (
-//   <>
-//     <Global
-//       styles={css`
-//         body {
-//           font-family: 'Cabin', sans-serif;
-//         }
-//       `}
-//     />
-//     {storyFn()}
-//   </>
-// ));
-
-
-
 // import React from 'react';
 
 // export default {
