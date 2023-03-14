@@ -1,5 +1,10 @@
 module.exports = {
   "stories": ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  output: {
+    // Set the public path for the deployed Storybook
+    // Replace `repository` with the name of your repository
+    publicPath: '/',
+  },
   addons: [{
     name: "@storybook/addon-docs",
     options: {
