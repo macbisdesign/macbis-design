@@ -22,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev",
-    "build-storybook": "storybook build -o docs-build",
+    "build-storybook": "storybook build -o docs-build yarn run config:get && build-storybook -c .storybook -o dist_storybook",
+    "deploy-existing-storybook-ci": "yarn run config:get && storybook-to-ghpages --out=dist_storybook --existing-output-dir=dist_storybook --ci",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
