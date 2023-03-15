@@ -1,12 +1,10 @@
-// .storybook/webpack.config.js
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const path = require('path');
+module.exports = ({ config }) => {
+  config.plugins.push(new HtmlWebpackPlugin({
+    title: 'My Storybook',
+  }));
 
-module.exports = ({ config, mode }) => {
-  // Add publicPath option to output object
-  config.output.publicPath = '/';
-  
-  // Return the updated config object
   return config;
 };
-// //
+

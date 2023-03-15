@@ -1,12 +1,16 @@
 import { create } from '@storybook/theming';
+// import logoUrl from './public/images/MACBISimg.png';
 
 export default create({
   base: 'light',
   brandTitle: 'Macbis',
-  brandUrl: 'https://example.com',
+  brandUrl: 'https://macbisdesign.github.io/',
   // brandImage: 'https://i.ibb.co/NxTHPmf/MACBIS-4.png',
   // brandImage: 'https://i.ibb.co/d6zqzFK/MACBIS-5.png',
-  brandImage: 'https://i.ibb.co/42CF4rK/MACBIS-8.png',
+  // brandImage: 'https://i.ibb.co/42CF4rK/MACBIS-8.PNG',
+  // brandImage: 'images/MACBISimg.png',
+  // brandImage: (process.env.NODE_ENV === 'production') ? logoUrl : '/MACBISimg.png',
+  brandImage: 'https://res.cloudinary.com/dne7utix5/image/upload/v1678843332/MACBISimg_ewtjlc.png',
   brandTarget: '_self',
   colorPrimary: '#F9F9F9',
   colorSecondary: '#2a4362',
