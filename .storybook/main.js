@@ -6,15 +6,28 @@ module.exports = {
   //   publicPath: '/',
   // },
   outputDir: './docs',
-  addons: [{
-    name: "@storybook/addon-docs",
-    options: {
-      toolbar: {
-        title: "My Link",
-        href: "https://example.com"
-      }
-    }
-  }, "@storybook/addon-mdx-gfm"],
+  addons: [
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    "@storybook/addon-mdx-gfm",
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        configureJSX: true,
+        babelOptions: {},
+        sourceLoaderOptions: null,
+      },
+    },
+  ],
+  // addons: [{
+  //   name: "@storybook/addon-docs",
+  //   options: {
+  //     toolbar: {
+  //       title: "My Link",
+  //       href: "https://example.com"
+  //     }
+  //   }
+  // }, "@storybook/addon-mdx-gfm"],
   "framework": {
     name: "@storybook/react-webpack5",
     options: {}
@@ -23,5 +36,22 @@ module.exports = {
     autodocs: true
   }
 };
+
+// module.exports = {
+//   stories: ['../src/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
+//   addons: [
+//     '@storybook/addon-links',
+//     '@storybook/addon-essentials',
+//     {
+//       name: '@storybook/addon-docs',
+//       options: {
+//         configureJSX: true,
+//         babelOptions: {},
+//         sourceLoaderOptions: null,
+//       },
+//     },
+//   ],
+// };
+
 
 // .storybook/main.js
